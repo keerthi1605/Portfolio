@@ -1,0 +1,14 @@
+/* App.module.css */
+.appContainer {
+  background-color: #ffffff;
+  color: #1a202c;
+  min-height: 100vh;
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+  .appContainer {
+    background-color: #111827;
+    color: #ffffff;
+  }
+}
